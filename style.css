@@ -1,0 +1,19 @@
+/* Selector lists */
+.navbar {
+  text-align: right;
+}
+.navbar li {
+  display: inline-block;
+  padding: 10px;
+}
+.navbar a {
+  color: #202124;
+}
+.navbar a, .navbar a:active, .navbar a:hover, .navbar a:visited {
+  text-decoration: none;
+}
+.navbar a:active, .navbar a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

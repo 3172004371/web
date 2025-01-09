@@ -1,0 +1,33 @@
+$primary-text-colour: #202124;
+
+$primary-background-colour: #fd9100;
+$secondary-background-colour: #F8F9FA;
+$highlight-colour: #888888;
+$affordance-colour: #4D90FE;
+
+/* Selector lists */
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+$ui-tags-hover: '.searchbar:hover, .searchbar:focus, .searchbar-sm:hover, .searchbar-sm:focus, .searchbutton:hover';
+
+.navbar {
+  text-align: right;
+
+  li {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  a {
+    color: $primary-text-colour;
+  }
+
+
+  #{$a-tags} {
+    text-decoration: none;
+  }
+
+  #{$a-tags-hover} {
+    text-decoration: underline;
+  }
+}
